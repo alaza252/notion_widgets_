@@ -15,22 +15,22 @@ body {
 
 button,
 button:active {
-  background-color: rgb(234, 196, 213);
+  background-color: rgb(135, 75, 120);
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(101, 55, 89);
-  -webkit-box-shadow: 0.2em 0.2em rgb(101, 55, 89);
-  -moz-box-shadow: 0.2em 0.2em rgb(101, 55, 89);
+  box-shadow: 0.2em 0.2em rgb(77, 42, 68);
+  -webkit-box-shadow: 0.2em 0.2em rgb(77, 42, 68);
+  -moz-box-shadow: 0.2em 0.2em rgb(77, 42, 68);
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(101, 55, 89) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(101, 55, 89) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(101, 55, 89) inset;
+  box-shadow: 0.2em 0.2em rgb(77, 42, 68) inset;
+  -webkit-box-shadow: 0.2em 0.2em rgb(77, 42, 68) inset;
+  -moz-box-shadow: 0.2em 0.2em rgb(77, 42, 68) inset;
 }
 
 /* Clock Body */
@@ -40,7 +40,7 @@ button:focus {
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px rgb(101, 55, 89);
+  box-shadow: 10px 10px rgb(77, 42, 68);
 }
 
 /* Display + Stop/Start/Reset Controls */
@@ -102,7 +102,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(101, 55, 89);
+  border: 2px solid rgb(77, 42, 68);
   padding: 10px;
   border-radius: 10px;
   width: 48%;
