@@ -15,32 +15,33 @@ body {
 
 button,
 button:active {
-  background-color: rgb(191, 129, 175);
+  background-color: #FCE4EC;
   border: none;
   width: 42px;
   height: 40px;
   border-radius: 100%;
   text-align: center;
-  box-shadow: 0.2em 0.2em rgb(124, 76, 112);
-  -webkit-box-shadow: 0.2em 0.2em rgb(77, 42, 68);
-  -moz-box-shadow: 0.2em 0.2em rgb(77, 42, 68);
+  box-shadow: 0.2em 0.2em #F8BBD0;
+  -webkit-box-shadow: 0.2em 0.2em #F8BBD0;
+  -moz-box-shadow: 0.2em 0.2em #F8BBD0;
 }
 
 button:focus {
   translate: 0.2em 0.2em;
-  box-shadow: 0.2em 0.2em rgb(77, 42, 68) inset;
-  -webkit-box-shadow: 0.2em 0.2em rgb(77, 42, 68) inset;
-  -moz-box-shadow: 0.2em 0.2em rgb(77, 42, 68) inset;
+  box-shadow: 0.2em 0.2em #F8BBD0 inset;
+  -webkit-box-shadow: 0.2em 0.2em #F8BBD0 inset;
+  -moz-box-shadow: 0.2em 0.2em #F8BBD0 inset;
 }
 
 /* Clock Body */
 
 .clock-container {
-  background-color: rgb(234, 196, 213); 
+  background-color: #F48FB1; 
+  display: flex;
   width: 350px;
   border-radius: 20px;
   padding: 30px;
-  box-shadow: 10px 10px rgba(180, 149, 168);
+  box-shadow: 10px 10px #F06292;
 }
 
 /* Display + Stop/Start/Reset Controls */
@@ -48,10 +49,10 @@ button:focus {
 #time-left {
   font-size: 70px;
   text-align: center;
-  background-color: rgb(234, 196, 213);
+  background-color: #FCE4EC;
   padding: 20px;
   border-radius: 20px;
-  box-shadow: 3px 3px rgba(180, 149, 168) inset;
+  box-shadow: 3px 3px #F8BBD0 inset;
 }
 
 #display-controls {
@@ -66,11 +67,11 @@ button:focus {
   font-size: 25px;
   text-align: center;
   padding-top: 2px;
-  background-color: rgb(234, 196, 213);
+  background-color: #FCE4EC;
   border-radius: 10px;
   height: 40px;
   flex: 2;
-  box-shadow: 3px 3px rgb(253, 207, 238) inset;
+  box-shadow: 3px 3px #F8BBD0 inset;
 }
 
 #timer-ssr {
@@ -102,7 +103,7 @@ button:focus {
 .session-container {
   text-align: center;
 /*   display: inline-block; */
-  border: 2px solid rgb(191, 129, 175);
+  border: 2px solid #F8BBD0;
   padding: 10px;
   border-radius: 10px;
   width: 48%;
