@@ -37,7 +37,7 @@ button:focus {
 
 .clock-container {
   background-color: #F48FB1; 
-  display: flex;
+  
   width: 350px;
   border-radius: 20px;
   padding: 30px;
